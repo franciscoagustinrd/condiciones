@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#root{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 40px;
+}
+.hero{
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	
+}
+.item{
+	display: grid;	
+}
+img{
+	width: 150px;
+	background-color: aliceblue;
+}
+button{
+	width: 200px;
+	cursor:pointer;
+}
